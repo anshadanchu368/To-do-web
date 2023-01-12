@@ -1,0 +1,245 @@
+* {
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  
+  .main-container {
+    width: 80%;
+    height: 10%;
+    margin: 10% 10% 5% 10%;
+    
+    padding:0;
+    position: relative;
+    left:5px;
+   
+  }
+  
+  .header {
+    width: 120%;
+    height: 12%;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    margin:0;
+    font-size: 40px;
+    box-shadow: 0px 3px 30px #7b7b7b29;
+    /* filter: blur(6px); */
+  }
+  
+  .task {
+    display: inline;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  
+  .lists {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    color: #00a5ec;
+  }
+  
+  .back{
+    position: absolute;
+    top:11rem;
+    left:45rem;
+    font-size:26px;
+    font-weight:bold
+  }
+  .add-task {
+    display: inline;
+    position: absolute;
+    top: 11rem;
+    left: 55%;
+  }
+  .add-list {
+    position: absolute;
+    top: 11.5rem;
+    left: 57%;
+    /* font-weight:bold;
+      font-size: 20px; */
+    font: normal normal normal 22px/26px sans-serif;
+    letter-spacing: 0px;
+    color: #424242;
+    opacity: 1;
+  }
+  
+  .card1 {
+    position: absolute;
+    /* margin-left: 15%;
+    margin-top:15%; */
+    top:0%;
+    left:30%;
+    margin: 6%;
+    padding:0%;
+    /* top:50%; */
+    height: 35vh;
+    width: 17vw;
+    border: 1px solid #ededed;
+    border-radius:10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .trip{
+      
+      font-weight:bold;
+      font-size: 20px;
+      color: #00a5ec;
+      height:34%;
+      width:100%;
+      text-align: left;
+      padding-top:40px;
+      padding-left:30px;
+      /* border-bottom: 1px solid black; */
+      border: 1px solid #ededed;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  
+  #check1{
+      position:relative;
+      top:20px;
+      left: 23px;
+      width:30px;
+      height:30px;
+      border-radius: 10px;
+      
+  }
+  .label1{
+      position:relative;
+      top:12px;
+      left:35px;
+      text-decoration: line-through;
+      color: #c2c2c2;
+  }
+  
+  #check2{
+      position:absolute;
+      top:55%;
+      left:7%;
+      width:30px;
+      height:30px;
+      border-radius: 10px;
+      border:1px solid grey;
+  }
+  
+  .label2{
+      position:absolute;
+      top:57%;
+      left:20%;
+  }
+  
+  .card2{
+      position:relative;
+      display:inline-block;
+      margin:0%;
+    padding:0%;
+    top:0%;
+    left:35%;
+    height: 35vh;
+    width: 17vw;
+    border: 1px solid #ededed;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .card3{
+      position:relative;
+      display: inline-block;
+      margin:0%;
+    padding:0%;
+    top:0%;
+    left:38%;
+    height: 35vh;
+    width: 17vw;
+    border: 1px solid #ededed;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .card4{
+      position:absolute;
+      display: inline-block;
+      margin:0%;
+    padding:0%;
+    top:120%;
+    left:10%;
+    height: 35vh;
+    width: 17vw;
+    border: 1px solid #ededed;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .card5{
+      position:absolute;
+      margin:0%;
+    padding:0%;
+    top:120%;
+    left:35%;
+    height: 35vh;
+    width: 17vw;
+    border: 1px solid #ededed;
+    border-radius:10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .notshow{
+    filter:blur(6px)
+  }
+  
+  .popup{
+    border :1px solid #cec8c8;
+    height:20vh;
+    width:25vw;
+    position:absolute;
+    top: 40vh;
+    left:40%;
+    background-color:white;
+    border-radius:10px;
+    padding:0;
+  
+  }
+  
+  .text{
+     border-bottom: 1px solid #ededed;
+     padding-top:10px;
+     padding-left:6%;
+     padding-bottom:10px;
+     font-weight:bold;
+  }
+  .textarea{
+    position:absolute;
+    top:40%;
+    left:6%;
+    height:40px;
+    width:420px;
+    border:1px solid #cec8c8;
+    background-color: #faf8f8;
+    border-radius: 4px;;
+  
+  }
+  
+  .button{
+    position:absolute;
+    top:70%;
+    left:65%;
+    border:none;
+    background-color:#00A5EC;
+    color:white;
+    height:4vh;
+    width:15vh;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  
+  
